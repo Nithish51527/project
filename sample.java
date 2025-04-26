@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git branch: 'main', url: https://github.com/Nithish51527/2281A7316.git
+                git branch: 'main', url: 'https://github.com/Nithish51527/2281A7316.git'
             }
         }
         stage('Build') {
